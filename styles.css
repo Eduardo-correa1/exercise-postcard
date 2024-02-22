@@ -1,0 +1,59 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 440px;
+	height: 330px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin: 2%;
+}
+.postcard-header h1 {
+	width: 380px;
+	margin: 2%;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0%;
+}
+.body-left {
+	padding: 10px;
+}
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border: none;
+	border-bottom: grey;
+}
+
+.postcard-footer {
+	text-align: center;
+	padding: 5px;
+}
+button {
+	background: rgb(209, 207, 207);
+}
+* {
+	padding: 1px;
+}
+h1 {
+	font-family: "Dancing Script";
+}
+p {
+	font-family: kalam;
+}
+::placeholder {
+	text-decoration: underline;
+}
